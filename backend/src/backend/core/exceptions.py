@@ -1,0 +1,1 @@
+# (AppError and subclasses)

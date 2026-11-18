@@ -1,0 +1,1 @@
+# (settings: DB URL, JWT secret, SMTP)
