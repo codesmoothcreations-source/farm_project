@@ -21,6 +21,8 @@ app.middleware(
 )
 
 
+app = FastAPI()
+
 @app.get("/")
 def home():
     return {"message":"home route"}

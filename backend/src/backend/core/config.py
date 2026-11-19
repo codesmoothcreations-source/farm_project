@@ -17,3 +17,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+# (settings: DB URL, JWT secret, SMTP)

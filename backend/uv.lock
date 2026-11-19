@@ -58,6 +58,10 @@ requires-dist = [
     { name = "psycopg2", specifier = ">=2.9.13" },
     { name = "psycopg2-binary", specifier = ">=2.9.13" },
 ]
+]
+
+[package.metadata]
+requires-dist = [{ name = "fastapi", extras = ["standard"], specifier = ">=0.163.2" }]
 
 [[package]]
 name = "certifi"
