@@ -1,0 +1,33 @@
+# Environment & Security
+.env
+.env.*
+!.env.example
+
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+
+# Python Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+
+# Editor directories
+.vscode/
+.idea/
+
+
+# Local Database
+*.sqlite3
+*.sqlite
+*.db
+
+
+# OPERATING SYSTEM FILES
+.DS_Store
+Thumbs.db
