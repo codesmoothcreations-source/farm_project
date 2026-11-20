@@ -1,7 +1,6 @@
 # (settings: DB URL, JWT secret, SMTP)
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import PostgresDsn
 
 class Settings(BaseSettings):
     APP_NAME: str
