@@ -4,9 +4,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import PostgresDsn
 
 class Settings(BaseSettings):
-    app_name: str
-    database_url: str
-    debug: bool
+    APP_NAME: str
+    DATABASE_URL: str
+    DEBUG: bool
 
 
     model_config = SettingsConfigDict(
